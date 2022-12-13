@@ -1,0 +1,15 @@
+version: '3'
+services:
+    generated-api:
+        container_name: generated-api
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        image: generated_api:latest
+        ports:
+            - 80:8080
+        networks:
+            - spring-cloud-network
+networks:
+    spring-cloud-network:
+        driver: bridge

@@ -14,4 +14,5 @@ TESTING
 1. Import the postman collection fond in this repository into your desktop version of POSTMAN.
 2. Run the `Get Accounts` request.
 3. The output should be a JSON object with an array called test within it, this array should contain 2 instances of the string iban. 
+4. Along with the JSON output the response status should be 501 unimplemented. 
 

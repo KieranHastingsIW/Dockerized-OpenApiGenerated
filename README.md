@@ -4,9 +4,8 @@ A guide and the resources to generate and run an API from an OpenApi spec yaml f
 NOTE: A lightweight simple bank app was used to reduce build time. 
 
 1. Clone repository into directory of choice.
-2. In DOS CMD run the `docker-compose build` command.
+2. In DOS CMD run the `docker-compose up` command.
 3. The build will take around 3 - 4 minutes so go make yourself a coffee, you deserve it.
-4. Once the build is complete run `docker-compose up` .
 5. To test the deployment of the application in your search engine of choice search `localhost:80` this should direct you to the swagger ui of the mimacom Banking API.
 
 TESTING 
